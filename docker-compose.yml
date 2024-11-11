@@ -25,7 +25,7 @@ x-n8n: &service-n8n
 x-ollama: &service-ollama
   image: ollama/ollama:latest
   container_name: ollama
-  networks: ['demo']
+  networks: ['vtmikez']
   restart: unless-stopped
   ports:
     - 11434:11434
